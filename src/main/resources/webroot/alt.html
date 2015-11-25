@@ -1,0 +1,15 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>UTF8 Example</title>
+</head>
+<body>
+  <h1>Example Links</h1>
+  <ul>
+    <li>Query Not Encoded : <a href="/dump/test?input=aaaaaéééééààààà">Link</a></li>
+    <li>Query Encoded : <a href="/dump/test?input=aaaaa%C3%A9%C3%A9%C3%A9%C3%A9%C3%A9%C3%A0%C3%A0%C3%A0%C3%A0%C3%A0">Link</a></li>
+    <li>Path Not Encoded : <a href="/dump/test/éé/àà/">Link</a></li>
+    <li>Path Encoded : <a href="/dump/test/%C3%A9%C3%A9/%C3%A0%C3%A0/">Link</a></li>
+  </ul>
+</body>
+</html>
